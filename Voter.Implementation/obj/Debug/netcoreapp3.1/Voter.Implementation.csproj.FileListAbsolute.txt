@@ -1,0 +1,16 @@
+D:\ASP\Voter\Voter.Implementation\bin\Debug\netcoreapp3.1\Voter.Implementation.deps.json
+D:\ASP\Voter\Voter.Implementation\bin\Debug\netcoreapp3.1\Voter.Implementation.dll
+D:\ASP\Voter\Voter.Implementation\bin\Debug\netcoreapp3.1\Voter.Implementation.pdb
+D:\ASP\Voter\Voter.Implementation\obj\Debug\netcoreapp3.1\Voter.Implementation.csprojAssemblyReference.cache
+D:\ASP\Voter\Voter.Implementation\obj\Debug\netcoreapp3.1\Voter.Implementation.AssemblyInfoInputs.cache
+D:\ASP\Voter\Voter.Implementation\obj\Debug\netcoreapp3.1\Voter.Implementation.AssemblyInfo.cs
+D:\ASP\Voter\Voter.Implementation\obj\Debug\netcoreapp3.1\Voter.Implementation.dll
+D:\ASP\Voter\Voter.Implementation\obj\Debug\netcoreapp3.1\Voter.Implementation.pdb
+D:\ASP\Voter\Voter.Implementation\bin\Debug\netcoreapp3.1\Voter.Application.dll
+D:\ASP\Voter\Voter.Implementation\bin\Debug\netcoreapp3.1\Voter.Domain.dll
+D:\ASP\Voter\Voter.Implementation\bin\Debug\netcoreapp3.1\Voter.EfDataAccess.dll
+D:\ASP\Voter\Voter.Implementation\bin\Debug\netcoreapp3.1\Voter.Application.pdb
+D:\ASP\Voter\Voter.Implementation\bin\Debug\netcoreapp3.1\Voter.EfDataAccess.pdb
+D:\ASP\Voter\Voter.Implementation\bin\Debug\netcoreapp3.1\Voter.Domain.pdb
+D:\ASP\Voter\Voter.Implementation\obj\Debug\netcoreapp3.1\Voter.Implementation.csproj.CopyComplete
+D:\ASP\Voter\Voter.Implementation\obj\Debug\netcoreapp3.1\Voter.Implementation.csproj.CoreCompileInputs.cache

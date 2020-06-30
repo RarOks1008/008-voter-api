@@ -1,0 +1,12 @@
+D:\ASP\Voter\Voter.Application\bin\Debug\netcoreapp3.1\Voter.Application.deps.json
+D:\ASP\Voter\Voter.Application\bin\Debug\netcoreapp3.1\Voter.Application.dll
+D:\ASP\Voter\Voter.Application\bin\Debug\netcoreapp3.1\Voter.Application.pdb
+D:\ASP\Voter\Voter.Application\bin\Debug\netcoreapp3.1\Voter.Domain.dll
+D:\ASP\Voter\Voter.Application\bin\Debug\netcoreapp3.1\Voter.Domain.pdb
+D:\ASP\Voter\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.csprojAssemblyReference.cache
+D:\ASP\Voter\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.AssemblyInfoInputs.cache
+D:\ASP\Voter\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.AssemblyInfo.cs
+D:\ASP\Voter\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.csproj.CopyComplete
+D:\ASP\Voter\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.dll
+D:\ASP\Voter\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.pdb
+D:\ASP\Voter\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.csproj.CoreCompileInputs.cache

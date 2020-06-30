@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Suw/R7OsY+pI0VkyCrlWlmWcr9LiQ1P8Uk+w7yp0nEkztJiZqaiqivlhvHbFVaQJtHj1vRijvJOF8CEPyFap7g==",
+  "success": true,
+  "projectFilePath": "D:\\ASP\\Voter\\Voter.Application\\Voter.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikol\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
