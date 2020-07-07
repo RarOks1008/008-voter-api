@@ -14,6 +14,9 @@ namespace Voter.Implementation.Validators
         {
             RuleFor(x => x.Name).NotEmpty();
             RuleFor(x => x.Info).NotEmpty();
+            RuleFor(x => x.PartyId)
+                .Must(id => context.Partys.Any(p => p.Id == id) || id == null)
+                .WithMessage("Party must exist");
         }
     }
 }

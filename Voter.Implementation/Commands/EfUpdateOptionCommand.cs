@@ -48,6 +48,7 @@ namespace Voter.Implementation.Commands
 
             option.Name = request.Name;
             option.Info = request.Info;
+            option.PartyId = request.PartyId;
             _context.SaveChanges();
         }
     }

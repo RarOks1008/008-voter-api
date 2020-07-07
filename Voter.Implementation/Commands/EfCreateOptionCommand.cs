@@ -36,6 +36,7 @@ namespace Voter.Implementation.Commands
             {
                 Name = request.Name,
                 Info = request.Info,
+                PartyId = request.PartyId,
                 StateId = actorRegion.StateId
             });
             _context.SaveChanges();
