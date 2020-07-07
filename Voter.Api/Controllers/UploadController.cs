@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 using Voter.Application;
 using Voter.Application.Commands;
 using Voter.Application.DataTransfer;
+using Voter.Application.Queries;
+using Voter.Application.Searches;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -28,13 +30,10 @@ namespace Voter.Api.Controllers
 
         // GET: api/<UploadController>
         [HttpGet]
-        public IActionResult Get(
-            //[FromQuery] PersonSearch search,
-            //[FromServices] IGetPersonsQuery query
-            )
+        public IActionResult Get([FromBody] ReportSearch search,
+            [FromServices] IGetReportsQuery query)
         {
-            return Ok();
-            //return Ok(executor.ExecuteQuery(query, search));
+            return Ok(executor.ExecuteQuery(query, search));
         }
 
         // POST api/<UploadController>
