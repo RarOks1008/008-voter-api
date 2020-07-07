@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eoq+/zv/IEPnPMeE6x2oBfCxTEiXWfjsSXNStoWdqPHUMWsygibC5VI6hjjfZ1SZSUMDIos9g4XJ2+o+/7u3IQ==",
+  "dgSpecHash": "wzP0jCl+JZTv7h9MVuoQD3hD6y2Tbu9+PabjW0riX4LIgam4DjKgt1qfMk607bE+NaaYu4Ux7CnHKBBJCy0g8w==",
   "success": true,
-  "projectFilePath": "D:\\ASP\\Voter\\Voter.Implementation\\Voter.Implementation.csproj",
+  "projectFilePath": "D:\\git\\008-voter-api\\Voter.Implementation\\Voter.Implementation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikol\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\nikol\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP\\Voter\\Voter.DataAccess\\Voter.EfDataAccess.csproj": {}
+    "D:\\git\\008-voter-api\\Voter.DataAccess\\Voter.EfDataAccess.csproj": {}
   },
   "projects": {
-    "D:\\ASP\\Voter\\Voter.DataAccess\\Voter.EfDataAccess.csproj": {
+    "D:\\git\\008-voter-api\\Voter.DataAccess\\Voter.EfDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP\\Voter\\Voter.DataAccess\\Voter.EfDataAccess.csproj",
+        "projectUniqueName": "D:\\git\\008-voter-api\\Voter.DataAccess\\Voter.EfDataAccess.csproj",
         "projectName": "Voter.EfDataAccess",
-        "projectPath": "D:\\ASP\\Voter\\Voter.DataAccess\\Voter.EfDataAccess.csproj",
+        "projectPath": "D:\\git\\008-voter-api\\Voter.DataAccess\\Voter.EfDataAccess.csproj",
         "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP\\Voter\\Voter.DataAccess\\obj\\",
+        "outputPath": "D:\\git\\008-voter-api\\Voter.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj": {
-                "projectPath": "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj"
+              "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj": {
+                "projectPath": "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj": {
+    "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj",
+        "projectUniqueName": "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj",
         "projectName": "Voter.Domain",
-        "projectPath": "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj",
+        "projectPath": "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj",
         "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP\\Voter\\Voter.Domain\\obj\\",
+        "outputPath": "D:\\git\\008-voter-api\\Voter.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

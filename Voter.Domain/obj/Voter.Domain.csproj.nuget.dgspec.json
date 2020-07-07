@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj": {}
+    "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj": {}
   },
   "projects": {
-    "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj": {
+    "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj",
+        "projectUniqueName": "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj",
         "projectName": "Voter.Domain",
-        "projectPath": "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj",
+        "projectPath": "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj",
         "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP\\Voter\\Voter.Domain\\obj\\",
+        "outputPath": "D:\\git\\008-voter-api\\Voter.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

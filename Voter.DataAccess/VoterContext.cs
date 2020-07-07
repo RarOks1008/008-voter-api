@@ -18,6 +18,11 @@ namespace Voter.EfDataAccess
                 new Role { Id = 2, Name = "Admin" },
                 new Role { Id = 3, Name = "SuperAdmin" }
             };
+            var parties = new List<Party>
+            {
+                new Party { Id = 1, Name = "Republican" },
+                new Party { Id = 2, Name = "Democrats" }
+            };
             var states = new List<State>
             {
                 new State { Id = 1, Name = "Serbia" },
@@ -131,6 +136,7 @@ namespace Voter.EfDataAccess
             };
 
             modelBuilder.Entity<Role>().HasData(roles);
+            modelBuilder.Entity<Party>().HasData(parties);
             modelBuilder.Entity<State>().HasData(states);
             modelBuilder.Entity<Region>().HasData(regions);
             modelBuilder.Entity<Option>().HasData(options);
@@ -144,6 +150,7 @@ namespace Voter.EfDataAccess
             modelBuilder.ApplyConfiguration(new StateConfiguration());
             modelBuilder.ApplyConfiguration(new RegionConfiguration());
             modelBuilder.ApplyConfiguration(new PersonConfiguration());
+            modelBuilder.ApplyConfiguration(new PartyConfiguration());
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -157,6 +164,7 @@ namespace Voter.EfDataAccess
         public DbSet<Report> Reports { get; set; }
         public DbSet<Region> Regions { get; set; }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<Party> Partys { get; set; }
         public DbSet<UseCaseLog> UseCaseLogs { get; set; }
     }
 }

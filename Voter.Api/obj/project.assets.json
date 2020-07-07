@@ -5588,11 +5588,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP\\Voter\\Voter.Api\\Voter.Api.csproj",
+      "projectUniqueName": "D:\\git\\008-voter-api\\Voter.Api\\Voter.Api.csproj",
       "projectName": "Voter.Api",
-      "projectPath": "D:\\ASP\\Voter\\Voter.Api\\Voter.Api.csproj",
+      "projectPath": "D:\\git\\008-voter-api\\Voter.Api\\Voter.Api.csproj",
       "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP\\Voter\\Voter.Api\\obj\\",
+      "outputPath": "D:\\git\\008-voter-api\\Voter.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5613,17 +5613,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\ASP\\Voter\\Voter.Application\\Voter.Application.csproj": {
-              "projectPath": "D:\\ASP\\Voter\\Voter.Application\\Voter.Application.csproj"
+            "D:\\git\\008-voter-api\\Voter.Application\\Voter.Application.csproj": {
+              "projectPath": "D:\\git\\008-voter-api\\Voter.Application\\Voter.Application.csproj"
             },
-            "D:\\ASP\\Voter\\Voter.DataAccess\\Voter.EfDataAccess.csproj": {
-              "projectPath": "D:\\ASP\\Voter\\Voter.DataAccess\\Voter.EfDataAccess.csproj"
+            "D:\\git\\008-voter-api\\Voter.DataAccess\\Voter.EfDataAccess.csproj": {
+              "projectPath": "D:\\git\\008-voter-api\\Voter.DataAccess\\Voter.EfDataAccess.csproj"
             },
-            "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj": {
-              "projectPath": "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj"
+            "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj": {
+              "projectPath": "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj"
             },
-            "D:\\ASP\\Voter\\Voter.Implementation\\Voter.Implementation.csproj": {
-              "projectPath": "D:\\ASP\\Voter\\Voter.Implementation\\Voter.Implementation.csproj"
+            "D:\\git\\008-voter-api\\Voter.Implementation\\Voter.Implementation.csproj": {
+              "projectPath": "D:\\git\\008-voter-api\\Voter.Implementation\\Voter.Implementation.csproj"
             }
           }
         }

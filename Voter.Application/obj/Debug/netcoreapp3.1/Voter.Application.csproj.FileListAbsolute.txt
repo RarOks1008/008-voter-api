@@ -10,3 +10,15 @@ D:\ASP\Voter\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.csproj.
 D:\ASP\Voter\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.dll
 D:\ASP\Voter\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.pdb
 D:\ASP\Voter\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.csproj.CoreCompileInputs.cache
+D:\git\008-voter-api\Voter.Application\bin\Debug\netcoreapp3.1\Voter.Application.deps.json
+D:\git\008-voter-api\Voter.Application\bin\Debug\netcoreapp3.1\Voter.Application.dll
+D:\git\008-voter-api\Voter.Application\bin\Debug\netcoreapp3.1\Voter.Application.pdb
+D:\git\008-voter-api\Voter.Application\bin\Debug\netcoreapp3.1\Voter.Domain.dll
+D:\git\008-voter-api\Voter.Application\bin\Debug\netcoreapp3.1\Voter.Domain.pdb
+D:\git\008-voter-api\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.csprojAssemblyReference.cache
+D:\git\008-voter-api\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.AssemblyInfoInputs.cache
+D:\git\008-voter-api\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.AssemblyInfo.cs
+D:\git\008-voter-api\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.csproj.CoreCompileInputs.cache
+D:\git\008-voter-api\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.csproj.CopyComplete
+D:\git\008-voter-api\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.dll
+D:\git\008-voter-api\Voter.Application\obj\Debug\netcoreapp3.1\Voter.Application.pdb

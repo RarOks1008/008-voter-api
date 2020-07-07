@@ -5045,11 +5045,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP\\Voter\\Voter.Implementation\\Voter.Implementation.csproj",
+      "projectUniqueName": "D:\\git\\008-voter-api\\Voter.Implementation\\Voter.Implementation.csproj",
       "projectName": "Voter.Implementation",
-      "projectPath": "D:\\ASP\\Voter\\Voter.Implementation\\Voter.Implementation.csproj",
+      "projectPath": "D:\\git\\008-voter-api\\Voter.Implementation\\Voter.Implementation.csproj",
       "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP\\Voter\\Voter.Implementation\\obj\\",
+      "outputPath": "D:\\git\\008-voter-api\\Voter.Implementation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5070,11 +5070,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\ASP\\Voter\\Voter.Application\\Voter.Application.csproj": {
-              "projectPath": "D:\\ASP\\Voter\\Voter.Application\\Voter.Application.csproj"
+            "D:\\git\\008-voter-api\\Voter.Application\\Voter.Application.csproj": {
+              "projectPath": "D:\\git\\008-voter-api\\Voter.Application\\Voter.Application.csproj"
             },
-            "D:\\ASP\\Voter\\Voter.DataAccess\\Voter.EfDataAccess.csproj": {
-              "projectPath": "D:\\ASP\\Voter\\Voter.DataAccess\\Voter.EfDataAccess.csproj"
+            "D:\\git\\008-voter-api\\Voter.DataAccess\\Voter.EfDataAccess.csproj": {
+              "projectPath": "D:\\git\\008-voter-api\\Voter.DataAccess\\Voter.EfDataAccess.csproj"
             }
           }
         }

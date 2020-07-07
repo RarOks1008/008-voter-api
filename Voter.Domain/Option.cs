@@ -10,7 +10,9 @@ namespace Voter.Domain
         public string Name { get; set; }
         public string Info { get; set; }
         public int StateId { get; set; }
+        public int? PartyId { get; set; }
         public virtual State State { get; set; }
+        public virtual Party Party { get; set; }
         public virtual ICollection<Person> Persons { get; set; }
     }
 }

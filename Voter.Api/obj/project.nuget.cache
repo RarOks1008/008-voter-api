@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RBciqOUU6ByPs/nry2zhd3SyDsq/0dAx6ruERgmeDBrX6xxBNaD8FpsVnEJKtMHK9/TyRuxIMHHxgj7TU+YRzQ==",
+  "dgSpecHash": "99zJ0mPVjSmdBvoAoAMLM1NH3DyJDfoAEgJCrq/my4bCvBch8CpiL5IuYukrL9czNI+KBg8HTn+cFGfIhrNFSg==",
   "success": true,
-  "projectFilePath": "D:\\ASP\\Voter\\Voter.Api\\Voter.Api.csproj",
+  "projectFilePath": "D:\\git\\008-voter-api\\Voter.Api\\Voter.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikol\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\nikol\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

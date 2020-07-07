@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cHMuktUiAAItgPleZRrt/GIOOcwODJHdsKvvACVFLh/5C8q06pOhBeFpXjDpkL9rOUSr+69sOA+/6MGpyh5qPA==",
+  "dgSpecHash": "GL2dM2no7jUdyKcLLfczWKml2OjX91mz8VOeymnOZytDexXiri0mNV/+wjZswq/JTbGx/kJszzvtTBUUil5FLA==",
   "success": true,
-  "projectFilePath": "D:\\ASP\\Voter\\Voter.Domain\\Voter.Domain.csproj",
+  "projectFilePath": "D:\\git\\008-voter-api\\Voter.Domain\\Voter.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -7,3 +7,12 @@ D:\ASP\Voter\Voter.Domain\obj\Debug\netcoreapp3.1\Voter.Domain.AssemblyInfo.cs
 D:\ASP\Voter\Voter.Domain\obj\Debug\netcoreapp3.1\Voter.Domain.csproj.CoreCompileInputs.cache
 D:\ASP\Voter\Voter.Domain\obj\Debug\netcoreapp3.1\Voter.Domain.dll
 D:\ASP\Voter\Voter.Domain\obj\Debug\netcoreapp3.1\Voter.Domain.pdb
+D:\git\008-voter-api\Voter.Domain\bin\Debug\netcoreapp3.1\Voter.Domain.deps.json
+D:\git\008-voter-api\Voter.Domain\bin\Debug\netcoreapp3.1\Voter.Domain.dll
+D:\git\008-voter-api\Voter.Domain\bin\Debug\netcoreapp3.1\Voter.Domain.pdb
+D:\git\008-voter-api\Voter.Domain\obj\Debug\netcoreapp3.1\Voter.Domain.csprojAssemblyReference.cache
+D:\git\008-voter-api\Voter.Domain\obj\Debug\netcoreapp3.1\Voter.Domain.AssemblyInfoInputs.cache
+D:\git\008-voter-api\Voter.Domain\obj\Debug\netcoreapp3.1\Voter.Domain.AssemblyInfo.cs
+D:\git\008-voter-api\Voter.Domain\obj\Debug\netcoreapp3.1\Voter.Domain.csproj.CoreCompileInputs.cache
+D:\git\008-voter-api\Voter.Domain\obj\Debug\netcoreapp3.1\Voter.Domain.dll
+D:\git\008-voter-api\Voter.Domain\obj\Debug\netcoreapp3.1\Voter.Domain.pdb

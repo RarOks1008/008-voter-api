@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LlL/bWFP5M6uFvW5uUyFurVURHZw5HJ23z9F8//iqLabIVlr7s0ZZTZ3r8hwKsBeiSn6E+k3Mu4Boxa/9XQQvA==",
+  "dgSpecHash": "fgSrJtORA791IrQvn0Axbb7G4MWlYaJfgoKfy3GltglEmCZx2OAYsMZ0V4DpfEoCABkQAuo0q4ygY0wMs5DPJw==",
   "success": true,
-  "projectFilePath": "D:\\ASP\\Voter\\Voter.DataAccess\\Voter.EfDataAccess.csproj",
+  "projectFilePath": "D:\\git\\008-voter-api\\Voter.DataAccess\\Voter.EfDataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikol\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\nikol\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

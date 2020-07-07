@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Suw/R7OsY+pI0VkyCrlWlmWcr9LiQ1P8Uk+w7yp0nEkztJiZqaiqivlhvHbFVaQJtHj1vRijvJOF8CEPyFap7g==",
+  "dgSpecHash": "NsFWBfzylJSTDJzvzd8HoPxH82S8LUSRR8UruI3/9Gp+7rM6jI7jpxRCCa1+sIu12YHzUyUQ7gzGQIkzw4bmfw==",
   "success": true,
-  "projectFilePath": "D:\\ASP\\Voter\\Voter.Application\\Voter.Application.csproj",
+  "projectFilePath": "D:\\git\\008-voter-api\\Voter.Application\\Voter.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikol\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
