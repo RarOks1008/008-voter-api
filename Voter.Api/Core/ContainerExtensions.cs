@@ -39,6 +39,7 @@ namespace Voter.Api.Core
             services.AddTransient<IUpdateOptionCommand, EfUpdateOptionCommand>();
             services.AddTransient<IGrantRoleCommand, EfGrantRoleCommand>();
             services.AddTransient<IPersonVoteCommand, EfPersonVoteCommand>();
+            services.AddTransient<ICreatePartyCommand, EfCreatePartyCommand>();
 
             services.AddTransient<IGetStatesQuery, EfGetStatesQuery>();
             services.AddTransient<IGetRegionsQuery, EfGetRegionsQuery>();
@@ -59,6 +60,7 @@ namespace Voter.Api.Core
             services.AddTransient<CreatePersonValidator>();
             services.AddTransient<CreateRegionValidator>();
             services.AddTransient<CreateOptionValidator>();
+            services.AddTransient<CreatePartyValidator>();
             services.AddTransient<UpdatePersonValidator>();
             services.AddTransient<UpdateStateValidator>();
             services.AddTransient<UpdateRegionValidator>();

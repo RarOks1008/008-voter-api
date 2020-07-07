@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Voter.Application;
+using Voter.Application.Commands;
+using Voter.Application.DataTransfer;
 using Voter.Application.Queries;
 using Voter.Application.Searches;
 
@@ -40,8 +43,11 @@ namespace Voter.Api.Controllers
 
         // POST api/<PartyController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] PartyDto dto,
+            [FromServices] ICreatePartyCommand command)
         {
+            _executor.ExecuteCommand(command, dto);
+            return StatusCode(StatusCodes.Status201Created);
         }
 
         // PUT api/<PartyController>/5
