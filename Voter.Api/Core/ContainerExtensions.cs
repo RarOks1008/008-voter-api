@@ -41,6 +41,7 @@ namespace Voter.Api.Core
             services.AddTransient<IPersonVoteCommand, EfPersonVoteCommand>();
             services.AddTransient<ICreatePartyCommand, EfCreatePartyCommand>();
             services.AddTransient<IUpdatePartyCommand, EfUpdatePartyCommand>();
+            services.AddTransient<IDeletePartyCommand, EfDeletePartyCommand>();
 
             services.AddTransient<IGetStatesQuery, EfGetStatesQuery>();
             services.AddTransient<IGetRegionsQuery, EfGetRegionsQuery>();

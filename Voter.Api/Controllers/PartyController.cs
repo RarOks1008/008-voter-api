@@ -62,8 +62,10 @@ namespace Voter.Api.Controllers
 
         // DELETE api/<PartyController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id, [FromServices] IDeletePartyCommand command)
         {
+            _executor.ExecuteCommand(command, id);
+            return NoContent();
         }
     }
 }
