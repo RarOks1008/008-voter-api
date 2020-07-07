@@ -3,10 +3,23 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Voter.EfDataAccess.Migrations
 {
-    public partial class _10tiputinitial : Migration
+    public partial class testinitial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Partys",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Partys", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Reports",
                 columns: table => new
@@ -92,11 +105,18 @@ namespace Voter.EfDataAccess.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(nullable: false),
                     Info = table.Column<string>(nullable: false),
-                    StateId = table.Column<int>(nullable: false)
+                    StateId = table.Column<int>(nullable: false),
+                    PartyId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Options", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Options_Partys_PartyId",
+                        column: x => x.PartyId,
+                        principalTable: "Partys",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Options_States_StateId",
                         column: x => x.StateId,
@@ -164,6 +184,15 @@ namespace Voter.EfDataAccess.Migrations
                 });
 
             migrationBuilder.InsertData(
+                table: "Partys",
+                columns: new[] { "Id", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Republican" },
+                    { 2, "Democrats" }
+                });
+
+            migrationBuilder.InsertData(
                 table: "Roles",
                 columns: new[] { "Id", "Name" },
                 values: new object[,]
@@ -187,14 +216,14 @@ namespace Voter.EfDataAccess.Migrations
 
             migrationBuilder.InsertData(
                 table: "Options",
-                columns: new[] { "Id", "Info", "Name", "StateId" },
+                columns: new[] { "Id", "Info", "Name", "PartyId", "StateId" },
                 values: new object[,]
                 {
-                    { 5, "Neki podaci 2", "Opcija 2", 2 },
-                    { 4, "Neki podaci 1", "Opcija 1", 2 },
-                    { 1, "Some data 1", "Vote Option 1", 1 },
-                    { 2, "Some data 2", "Vote Option 2", 1 },
-                    { 3, "Some data 3", "Vote Option 3", 1 }
+                    { 5, "Neki podaci 2", "Opcija 2", null, 2 },
+                    { 4, "Neki podaci 1", "Opcija 1", null, 2 },
+                    { 1, "Some data 1", "Vote Option 1", null, 1 },
+                    { 2, "Some data 2", "Vote Option 2", null, 1 },
+                    { 3, "Some data 3", "Vote Option 3", null, 1 }
                 });
 
             migrationBuilder.InsertData(
@@ -215,57 +244,77 @@ namespace Voter.EfDataAccess.Migrations
                 columns: new[] { "Id", "RoleId", "UseCaseId" },
                 values: new object[,]
                 {
-                    { 15, 3, 8 },
-                    { 17, 3, 9 },
-                    { 19, 3, 10 },
-                    { 21, 3, 11 },
-                    { 23, 3, 12 },
-                    { 25, 3, 13 },
-                    { 27, 3, 14 },
-                    { 28, 3, 15 },
-                    { 30, 3, 16 },
                     { 34, 3, 18 },
-                    { 36, 3, 19 },
-                    { 37, 3, 20 },
+                    { 32, 3, 17 },
+                    { 30, 3, 16 },
+                    { 28, 3, 15 },
+                    { 27, 3, 14 },
+                    { 25, 3, 13 },
+                    { 21, 3, 11 },
+                    { 19, 3, 10 },
+                    { 17, 3, 9 },
+                    { 15, 3, 8 },
                     { 13, 3, 7 },
+                    { 11, 3, 6 },
+                    { 23, 3, 12 },
+                    { 36, 3, 19 },
+                    { 39, 3, 21 },
                     { 41, 3, 22 },
                     { 42, 3, 23 },
-                    { 45, 3, 24 },
+                    { 8, 3, 5 },
                     { 49, 3, 25 },
                     { 52, 3, 26 },
-                    { 32, 3, 17 },
-                    { 39, 3, 21 },
-                    { 11, 3, 6 },
+                    { 55, 3, 27 },
+                    { 62, 3, 28 },
+                    { 63, 3, 29 },
+                    { 68, 3, 30 },
+                    { 69, 3, 31 },
+                    { 70, 3, 32 },
+                    { 71, 3, 33 },
+                    { 72, 3, 34 },
+                    { 37, 3, 20 },
+                    { 45, 3, 24 },
                     { 5, 3, 4 },
-                    { 9, 1, 6 },
-                    { 43, 1, 24 },
-                    { 46, 1, 14 },
-                    { 47, 1, 25 },
-                    { 50, 1, 26 },
-                    { 4, 2, 4 },
-                    { 7, 2, 5 },
-                    { 10, 2, 6 },
-                    { 12, 2, 7 },
-                    { 14, 2, 8 },
-                    { 16, 2, 9 },
-                    { 18, 2, 10 },
-                    { 20, 2, 11 },
-                    { 8, 3, 5 },
-                    { 22, 2, 12 },
-                    { 26, 2, 14 },
-                    { 29, 2, 16 },
-                    { 31, 2, 17 },
-                    { 33, 2, 18 },
-                    { 35, 2, 19 },
-                    { 38, 2, 21 },
-                    { 40, 2, 22 },
-                    { 44, 2, 24 },
-                    { 48, 2, 25 },
-                    { 51, 2, 26 },
-                    { 1, 3, 1 },
                     { 2, 3, 2 },
+                    { 14, 2, 8 },
+                    { 12, 2, 7 },
+                    { 10, 2, 6 },
+                    { 7, 2, 5 },
+                    { 4, 2, 4 },
+                    { 67, 1, 29 },
+                    { 66, 1, 28 },
+                    { 61, 1, 10 },
+                    { 60, 1, 16 },
+                    { 58, 1, 3 },
+                    { 56, 1, 15 },
+                    { 53, 1, 27 },
+                    { 50, 1, 26 },
+                    { 47, 1, 25 },
+                    { 46, 1, 14 },
+                    { 43, 1, 24 },
+                    { 9, 1, 6 },
+                    { 16, 2, 9 },
                     { 3, 3, 3 },
+                    { 18, 2, 10 },
+                    { 22, 2, 12 },
+                    { 1, 3, 1 },
+                    { 65, 2, 29 },
+                    { 64, 2, 28 },
+                    { 59, 2, 3 },
+                    { 57, 2, 15 },
+                    { 54, 2, 27 },
+                    { 51, 2, 26 },
+                    { 48, 2, 25 },
+                    { 44, 2, 24 },
+                    { 40, 2, 22 },
+                    { 38, 2, 21 },
+                    { 35, 2, 19 },
+                    { 33, 2, 18 },
+                    { 31, 2, 17 },
+                    { 29, 2, 16 },
+                    { 26, 2, 14 },
                     { 24, 2, 13 },
+                    { 20, 2, 11 },
                     { 6, 1, 5 }
                 });
 
@@ -296,9 +345,20 @@ namespace Voter.EfDataAccess.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Options_PartyId",
+                table: "Options",
+                column: "PartyId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Options_StateId",
                 table: "Options",
                 column: "StateId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Partys_Name",
+                table: "Partys",
+                column: "Name",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_Persons_OptionId",
@@ -372,6 +432,9 @@ namespace Voter.EfDataAccess.Migrations
 
             migrationBuilder.DropTable(
                 name: "Roles");
+
+            migrationBuilder.DropTable(
+                name: "Partys");
 
             migrationBuilder.DropTable(
                 name: "States");

@@ -10,8 +10,8 @@ using Voter.EfDataAccess;
 namespace Voter.EfDataAccess.Migrations
 {
     [DbContext(typeof(VoterContext))]
-    [Migration("20200707092240_added parties")]
-    partial class addedparties
+    [Migration("20200707125503_test initial")]
+    partial class testinitial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -904,6 +904,72 @@ namespace Voter.EfDataAccess.Migrations
                             Id = 61,
                             RoleId = 1,
                             UseCaseId = 10
+                        },
+                        new
+                        {
+                            Id = 62,
+                            RoleId = 3,
+                            UseCaseId = 28
+                        },
+                        new
+                        {
+                            Id = 63,
+                            RoleId = 3,
+                            UseCaseId = 29
+                        },
+                        new
+                        {
+                            Id = 64,
+                            RoleId = 2,
+                            UseCaseId = 28
+                        },
+                        new
+                        {
+                            Id = 65,
+                            RoleId = 2,
+                            UseCaseId = 29
+                        },
+                        new
+                        {
+                            Id = 66,
+                            RoleId = 1,
+                            UseCaseId = 28
+                        },
+                        new
+                        {
+                            Id = 67,
+                            RoleId = 1,
+                            UseCaseId = 29
+                        },
+                        new
+                        {
+                            Id = 68,
+                            RoleId = 3,
+                            UseCaseId = 30
+                        },
+                        new
+                        {
+                            Id = 69,
+                            RoleId = 3,
+                            UseCaseId = 31
+                        },
+                        new
+                        {
+                            Id = 70,
+                            RoleId = 3,
+                            UseCaseId = 32
+                        },
+                        new
+                        {
+                            Id = 71,
+                            RoleId = 3,
+                            UseCaseId = 33
+                        },
+                        new
+                        {
+                            Id = 72,
+                            RoleId = 3,
+                            UseCaseId = 34
                         });
                 });
 
