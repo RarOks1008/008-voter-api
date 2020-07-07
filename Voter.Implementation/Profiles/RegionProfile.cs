@@ -10,7 +10,8 @@ namespace Voter.Implementation.Profiles
     {
         public RegionProfile()
         {
-            CreateMap<Domain.Region, RegionDto>();
+            CreateMap<Domain.Region, RegionDto>()
+                .ForMember(dest => dest.StateName, opt => opt.MapFrom(x => x.State.Name));
         }
     }
 }

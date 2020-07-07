@@ -33,10 +33,10 @@ namespace Voter.Implementation.Queries
             }
             var query = _context.Persons.Include(x => x.Region).Include(x => x.Option)
                 .ThenInclude(x => x.State)
-                .GroupBy(x => new { x.OptionId, x.Option.Name, x.Option.Info, x.RegionId, x.Region.State.Id })
+                .GroupBy(x => new { x.OptionId, x.Option.Name, x.Option.Info, StateId = x.Region.State.Id, StateName = x.Region.State.Name, x.RegionId, RegionName = x.Region.Name })
                 .Select(g => new { KeyValue = g.Key, CountNumber = g.Count() })
                 .AsQueryable();
-            query = query.Where(w => w.KeyValue.Id == search);
+            query = query.Where(w => w.KeyValue.StateId == search);
 
             var response = query.Select(x => new ShowSingleVotingDto
             {
@@ -44,7 +44,10 @@ namespace Voter.Implementation.Queries
                 Id = (int)x.KeyValue.OptionId,
                 Info = x.KeyValue.Info,
                 Name = x.KeyValue.Name,
-                RegionId = x.KeyValue.RegionId
+                RegionId = x.KeyValue.RegionId,
+                RegionName = x.KeyValue.RegionName,
+                StateId = x.KeyValue.StateId,
+                StateName = x.KeyValue.StateName
             }).ToList();
             return response;
         }

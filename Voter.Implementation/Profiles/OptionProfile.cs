@@ -10,7 +10,9 @@ namespace Voter.Implementation.Profiles
     {
         public OptionProfile()
         {
-            CreateMap<Domain.Option, OptionDto>();
+            CreateMap<Domain.Option, OptionDto>()
+                .ForMember(dest => dest.PartyName, opt => opt.MapFrom(x => x.Party.Name))
+                .ForMember(dest => dest.StateName, opt => opt.MapFrom(x => x.State.Name));
         }
     }
 }

@@ -26,7 +26,7 @@ namespace Voter.Implementation.Queries
         {
             var query = _context.Persons.Include(x => x.Region).Include(x => x.Option)
                 .ThenInclude(x => x.State)
-                .GroupBy(x => new { x.OptionId, x.Option.Name, x.Option.Info, x.Region.State.Id })
+                .GroupBy(x => new { x.OptionId, x.Option.Name, x.Option.Info, StateId = x.Region.State.Id, StateName = x.Region.State.Name })
                 .Select(g => new { KeyValue = g.Key, CountNumber = g.Count() });
 
             var response = query.Select(x => new ShowVotingDto
@@ -35,7 +35,8 @@ namespace Voter.Implementation.Queries
                 Id = (int)x.KeyValue.OptionId,
                 Info = x.KeyValue.Info,
                 Name = x.KeyValue.Name,
-                StateId = x.KeyValue.Id
+                StateId = x.KeyValue.StateId,
+                StateName = x.KeyValue.StateName
             }).ToList();
             return response;
         }

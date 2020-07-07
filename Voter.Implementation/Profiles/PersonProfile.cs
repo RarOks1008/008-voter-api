@@ -12,7 +12,8 @@ namespace Voter.Implementation.Profiles
         {
             CreateMap<Domain.Person, PersonDto>()
                 .ForMember(x => x.Password, opt => opt.Ignore())
-                .ForMember(x => x.RoleId, opt => opt.Ignore());
+                .ForMember(x => x.RoleId, opt => opt.Ignore())
+                .ForMember(dest => dest.RegionName, opt => opt.MapFrom(x => x.Region.Name));
         }
     }
 }

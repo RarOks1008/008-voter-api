@@ -11,5 +11,6 @@ namespace Voter.Application.DataTransfer
         public string Info { get; set; }
         public int StateId { get; set; }
         public int CountNumber { get; set; }
+        public string StateName { get; set; }
     }
 }

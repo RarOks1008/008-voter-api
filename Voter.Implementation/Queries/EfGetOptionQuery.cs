@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Voter.Application;
 using Voter.Application.DataTransfer;
@@ -30,7 +32,7 @@ namespace Voter.Implementation.Queries
 
         public OptionDto Execute(int search)
         {
-            var option = _context.Options.Find(search);
+            var option = _context.Options.Include(x => x.Party).Include(s => s.State).FirstOrDefault(x => x.Id == search);
             if (option == null)
             {
                 throw new EntityNotFoundException(search, typeof(Option));

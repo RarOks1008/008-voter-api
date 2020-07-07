@@ -10,6 +10,9 @@ namespace Voter.Application.DataTransfer
         public string Name { get; set; }
         public string Info { get; set; }
         public int RegionId { get; set; }
+        public string RegionName { get; set; }
         public int CountNumber { get; set; }
+        public int StateId { get; set; }
+        public string StateName { get; set; }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Voter.Application;
 using Voter.Application.DataTransfer;
@@ -30,7 +32,7 @@ namespace Voter.Implementation.Queries
 
         public RegionDto Execute(int search)
         {
-            var region = _context.Regions.Find(search);
+            var region = _context.Regions.Include(x => x.State).FirstOrDefault(s => s.Id == search);
             if (region == null)
             {
                 throw new EntityNotFoundException(search, typeof(Region));

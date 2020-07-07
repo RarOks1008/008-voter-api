@@ -26,6 +26,17 @@ namespace Voter.Api.Controllers
             this.executor = executor;
         }
 
+        // GET: api/<UploadController>
+        [HttpGet]
+        public IActionResult Get(
+            //[FromQuery] PersonSearch search,
+            //[FromServices] IGetPersonsQuery query
+            )
+        {
+            return Ok();
+            //return Ok(executor.ExecuteQuery(query, search));
+        }
+
         // POST api/<UploadController>
         [HttpPost]
         public IActionResult Post([FromForm] UploadDto dto,

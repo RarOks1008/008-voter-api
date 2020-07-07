@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,7 +32,7 @@ namespace Voter.Implementation.Queries
 
         public PagedResponse<OptionDto> Execute(OptionSearch search)
         {
-            var query = _context.Options.AsQueryable();
+            var query = _context.Options.Include(x => x.Party).Include(s => s.State).AsQueryable();
             if (!string.IsNullOrEmpty(search.SearchName) || !string.IsNullOrWhiteSpace(search.SearchName))
             {
                 query = query.Where(x => x.Name.ToLower().Contains(search.SearchName.ToLower()) || x.Info.ToLower().Contains(search.SearchName.ToLower()));
