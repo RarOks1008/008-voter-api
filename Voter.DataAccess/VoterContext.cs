@@ -133,7 +133,12 @@ namespace Voter.EfDataAccess
                 new RoleUseCase { Id = 59, RoleId = 2, UseCaseId = 3},
                 new RoleUseCase { Id = 60, RoleId = 1, UseCaseId = 16},
                 new RoleUseCase { Id = 61, RoleId = 1, UseCaseId = 10},
-                new RoleUseCase { Id = 62, RoleId = 3, UseCaseId = 28}
+                new RoleUseCase { Id = 62, RoleId = 3, UseCaseId = 28},
+                new RoleUseCase { Id = 63, RoleId = 3, UseCaseId = 29},
+                new RoleUseCase { Id = 64, RoleId = 2, UseCaseId = 28},
+                new RoleUseCase { Id = 65, RoleId = 2, UseCaseId = 29},
+                new RoleUseCase { Id = 66, RoleId = 1, UseCaseId = 28},
+                new RoleUseCase { Id = 67, RoleId = 1, UseCaseId = 29}
             };
 
             modelBuilder.Entity<Role>().HasData(roles);

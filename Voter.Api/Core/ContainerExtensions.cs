@@ -52,6 +52,7 @@ namespace Voter.Api.Core
             services.AddTransient<IGetVotingResult, EfGetVotingResult>();
             services.AddTransient<IGetPersonVoteQuery, EfGetPersonVoteQuery>();
             services.AddTransient<IGetPartysQuery, EfGetPartysQuery>();
+            services.AddTransient<IGetPartyQuery, EfGetPartyQuery>();
 
             services.AddTransient<UseCaseExecutor>();
             services.AddTransient<CreateStateValidator>();
