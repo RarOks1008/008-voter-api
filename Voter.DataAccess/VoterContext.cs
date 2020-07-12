@@ -68,7 +68,8 @@ namespace Voter.EfDataAccess
                 new Person { Id = 16, FirstName = "Nevena", LastName = "Nevenkic", Address = "Neka bb", PersonalId = "1402448272957", Password = HashHelper.ConvertPasswordFormat("marko1", 0xFF), RegionId = 1, RoleId = 1, OptionId = 2},
                 new Person { Id = 17, FirstName = "Vladimir", LastName = "Vladimirovic", Address = "Neka bb", PersonalId = "1502448272957", Password = HashHelper.ConvertPasswordFormat("marko1", 0xFF), RegionId = 2, RoleId = 1, OptionId = 2},
                 new Person { Id = 18, FirstName = "Dijana", LastName = "Dijanic", Address = "Neka bb", PersonalId = "1602448272957", Password = HashHelper.ConvertPasswordFormat("marko1", 0xFF), RegionId = 2, RoleId = 1, OptionId = 2},
-                new Person { Id = 19, FirstName = "Jovana", LastName = "Jovanic", Address = "Neka bb", PersonalId = "1702448272957", Password = HashHelper.ConvertPasswordFormat("marko1", 0xFF), RegionId = 2, RoleId = 1, OptionId = 2}
+                new Person { Id = 19, FirstName = "Jovana", LastName = "Jovanic", Address = "Neka bb", PersonalId = "1702448272957", Password = HashHelper.ConvertPasswordFormat("marko1", 0xFF), RegionId = 2, RoleId = 1, OptionId = 2},
+                new Person { Id = 20, FirstName = "Ivana", LastName = "Ivanovic", Address = "Neka bb", PersonalId = "1702443372957", Password = HashHelper.ConvertPasswordFormat("ivana1", 0xFF), RegionId = 2, RoleId = 1, OptionId = 2}
             };
             var useCases = new List<RoleUseCase>
             {
